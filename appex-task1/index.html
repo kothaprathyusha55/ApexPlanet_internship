@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Simple E-Commerce</title>
+  <link rel="stylesheet" href="styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+
+  <h1>Welcome to fashion Zone</h1>
+  <p>Select the items you want to purchase and click "Order Now".</p>
+
+  <div class="products">
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/71T-yPIj-sL._SX679_.jpg" alt="T-Shirt">
+      
+      <h2>Cotton Printed Anarkali Kurta with Palazzo & Dupatta Set</h2>
+      <p>Price: ₹699</p>
+      <input type="checkbox" class="item" value="699">
+    </div>
+
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/61VpjokqnVL._SY741_.jpg" alt="Sneakers">
+      <h2>Pure Cotton Printed with Handwork Kurta with Pants and Dupatta Set</h2>
+      <p>Price: ₹799</p>
+      <input type="checkbox" class="item" value="799">
+    </div>
+
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/61NgeVCm6wL._AC_UL480_FMwebp_QL65_.jpg" alt="Cap">
+      <h2>Rayon Blend Solid Straight Kurta with Pant & Dupatta</h2>
+      <p>Price: ₹599</p>
+      <input type="checkbox" class="item" value="599">
+    </div>
+  </div>
+
+  <br>
+  <button onclick="placeOrder()">Order Now</button>
+
+  <script src="script.js"></script>
+</body>
+</html>
