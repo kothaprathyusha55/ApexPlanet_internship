@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Responsive & Interactive Project</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header>
+    <h1>My Responsive Web Project</h1>
+  </header>
+
+  <main>
+    <section class="content">
+      <p>This layout adjusts on mobile, tablet, and desktop using media queries.</p>
+    </section>
+
+    <!-- Quiz Section -->
+    <section class="quiz">
+      <h2>Simple Quiz</h2>
+      <p id="question">Question will appear here</p>
+      <button onclick="checkAnswer('A')">A. Creative Style Sheets</button>
+      <button onclick="checkAnswer('B')">B. Cascading Style Sheets</button>
+      <button onclick="checkAnswer('C')">C. Colorful Style Scripts</button>
+
+      <p id="result"></p>
+    </section>
+
+    <!-- API Section -->
+    <section class="api">
+      <h2>Random Joke</h2>
+      <button onclick="getJoke()">Get Joke</button>
+      <p id="joke"></p>
+    </section>
+  </main>
+
+  <!-- Scripts -->
+  <script src="quiz.js"></script>
+  <script src="api.js"></script>
+</body>
+</html>
